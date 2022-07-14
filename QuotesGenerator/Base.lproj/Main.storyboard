@@ -77,6 +77,7 @@
                     <connections>
                         <outlet property="nameLabel" destination="f65-mJ-uxD" id="hr8-90-lQP"/>
                         <outlet property="quoteLabel" destination="CQW-PW-3wQ" id="80b-8G-9z3"/>
+                        <outlet property="quoteView" destination="nOT-Ii-UXk" id="Jca-w2-W5g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

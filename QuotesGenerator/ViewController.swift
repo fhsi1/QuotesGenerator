@@ -8,8 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var quoteView: UIView!
     @IBOutlet weak var quoteLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
+    
     let quotes = [
         Quote(contents: "나 자신에 대한 자신감을 잃으면\n 온 세상이 나의 적이 된다.", name: "랄프 왈도 에머슨"),
         Quote(contents: "항상 맑으면 사막이 된다.\n 비가 내리고 바람이 불어야만\n 비옥한 땅이 된다.", name: "스페인 속담"),
@@ -25,6 +27,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        quoteView.layer.cornerRadius = 30
     }
 
 
